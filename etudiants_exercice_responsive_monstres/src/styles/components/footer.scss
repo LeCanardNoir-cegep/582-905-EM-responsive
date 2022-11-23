@@ -50,3 +50,28 @@
 
 /*Media query*/
 
+@media screen and (max-width: $breakpoint-sm){
+    .nav-footer{
+        ul{
+            grid-template-columns: 1fr !important;
+            padding-bottom: 30px !important;
+        }
+        li:not(.logo){
+            display: none;
+        }
+        a.logo{
+            text-transform: uppercase;
+        }
+    }
+    .footer{
+        p{
+            font-size: 1.6rem;
+            margin: 0;
+        }
+        .reseaux-sociaux > ul{
+            padding: 0;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}

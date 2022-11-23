@@ -1,5 +1,5 @@
 .hero{
-    padding:100px 0;
+    padding:80px 0;
 
     .wrapper{
         display:grid;
@@ -26,3 +26,21 @@
 
 /*Media query*/
 
+@media screen and (max-width: $breakpoint-sm){
+    .hero{
+        h1{
+            font-size: 47px;
+        }
+        .wrapper{
+            grid-template-columns: 1fr;
+        }
+        p{
+            margin-bottom: 84px;
+        }
+    }
+
+}
+
+@media screen and (max-width: $breakpoint-xs){
+
+}

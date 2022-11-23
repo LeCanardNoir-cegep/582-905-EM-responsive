@@ -7,3 +7,11 @@
     width: calc(100% - var(--spacing-md));
     margin: 0 auto;
 }
+
+@media screen and (max-width: $breakpoint-sm){
+    .wrapper{
+        max-width: $breakpoint-sm !important;
+        padding-left: var(--spacing-md)  !important;
+        padding-right: var(--spacing-md)  !important;
+    }
+}

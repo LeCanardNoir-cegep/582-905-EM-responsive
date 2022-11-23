@@ -31,7 +31,7 @@ header {
     font-size: var(--font-size-h4);
 }
 
-.menu-hamberger {
+.menu-hamburger {
     span {
         width: 20px;
         height: 2px;
@@ -44,4 +44,35 @@ header {
 }
 
 /*Media query*/
+@media screen and (max-width: $breakpoint-sm){
+    header{
+        .nav-header, .bouton-header{
+            display: none;
+        }
+        .wrapper{
+            height: 120px;
+        }
+        .logo{
+            text-transform: uppercase;
+        }
+    }
 
+
+    .menu-hamburger{
+        display: grid;
+        span{
+            width: 36px;
+            height: 4px;
+        }
+    }
+}
+
+
+@media screen and (max-width: $breakpoint-xs){
+    .nav-header, .bouton-header{
+        display: none;
+    }
+    .menu-hamburger{
+        display: grid;
+    }
+}
