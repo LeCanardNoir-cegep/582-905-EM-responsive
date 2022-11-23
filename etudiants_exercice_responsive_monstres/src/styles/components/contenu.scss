@@ -1,0 +1,32 @@
+.contenu{
+
+    padding:100px 0;
+
+    .wrapper{
+        text-align: center;
+    }
+
+    .heading-contenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom:80px;
+    }
+
+    p{
+        max-width:70%;
+    }
+
+    .cartes{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:20px;
+    }
+
+    h3{
+        padding: 20px 0;
+    }
+}
+
+/*Media query*/
+
